@@ -1,0 +1,358 @@
+.modestra-admin-notice {
+  padding: 10px 15px;
+}
+.modestra-admin-notice .info-content h5 {
+  margin: 0 0 5px;
+  padding: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #2271b1;
+}
+.modestra-admin-notice .info-content h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: capitalize;
+  margin: -5px 0 5px !important;
+  padding: 0;
+}
+p.cozy-blocks-text {
+  font-weight: 400;
+  margin: 0;
+  line-height: 18px;
+}
+.modestra-admin-notice #install-activate-button {
+  background-color: #00a32a;
+  border-color: #00a32a;
+  color: #fff;
+}
+
+.modestra-admin-notice .button.admin-button.info-button:hover {
+  background: #135e96;
+  border-color: #135e96;
+  color: #fff;
+}
+.modestra-admin-notice #install-activate-button:hover {
+  background-color: #029125;
+  border-color: #029125;
+}
+.modestra-admin-notice .button.admin-button.info-button {
+  background: #2271b1;
+  color: #ffffff;
+  padding: 0 10px;
+  font-weight: 500;
+}
+.modestra-admin-notice .admin-button.dismiss-notice.btn-notice-dismiss {
+  color: #a4a4a7;
+  display: inline-block;
+  margin: 15px;
+}
+.modestra-admin-notice .admin-button.dismiss-notice.btn-notice-dismiss:hover {
+  color: #d63638;
+}
+.modestra-admin-notice .notice-text {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+.dashboard-about-modestra {
+  padding: 0;
+  background: #fff;
+  box-sizing: border-box;
+  width: 98.5%;
+  margin: 20px 0 0 0;
+}
+.dashboard-about-modestra .modestra-dashboard {
+  padding: 24px;
+}
+.dashboard-about-modestra .half-col {
+  width: 50%;
+  display: inline-block;
+}
+.modestra-dashoard-hero {
+  background: #e9e8fc;
+  padding: 0;
+}
+
+.modestra-dashoard-hero img {
+  max-width: 100%;
+}
+.modestra-features-box-holder {
+  display: flex;
+  grid-gap: 64px;
+  padding: 28px 28px 10px;
+}
+.dashboard-about-modestra h1 {
+  color: #fff;
+}
+.modestra-dashoard-hero .modestra-features-box {
+  width: 33%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.modestra-dashoard-hero .modestra-features-box h4 {
+  font-size: 20px;
+  margin: 0;
+}
+.dashboard-about-modestra .featured-list {
+  display: flex;
+  grid-gap: 30px;
+}
+.dashboard-about-modestra .half-col ul ul {
+  margin: 10px 0 20px;
+  padding: 0 0 0 30px;
+}
+.dashboard-about-modestra .half-col ul ul li,
+.dashboard-about-modestra .half-col.pro-features li {
+  position: relative;
+}
+.dashboard-about-modestra .half-col ul ul li:before,
+.dashboard-about-modestra .half-col.pro-features li:before {
+  content: "\2713";
+  background: #bdbfc2;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: -20px;
+  top: 2px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+}
+.dashboard-about-modestra .half-col.pro-features li {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.dashboard-about-modestra .half-col.pro-features li:before {
+  background: #04cf9c;
+}
+.dashboard-about-modestra .half-col.pro-features ul {
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+
+.dashboard-about-modestra .upgrade-btn.button {
+  text-transform: uppercase;
+  background: #4261ee;
+  border-color: #4261ee;
+  color: #fff;
+  display: inline-block;
+  margin-top: 21px;
+  padding: 10px 24px;
+}
+.dashboard-about-modestra .upgrade-btn.button:hover {
+  background: #f39446;
+  border-color: #f39446;
+}
+.modestra-admin-notice .info-content h3,
+.dashboard-about-modestra h3,
+.modestra-admin-notice .info-content .modestra-required-plugin li h4,
+.dashboard-about-modestra .modestra-required-plugin li h4 {
+  margin: 0;
+}
+
+.modestra-admin-notice .info-content .modestra-required-plugin li,
+.dashboard-about-modestra .modestra-required-plugin li {
+  margin: 5px 0;
+}
+.modestra-admin-notice .info-content .modestra-required-plugin,
+.dashboard-about-modestra .modestra-required-plugin {
+  margin: 10px 0 30px;
+}
+.dashboard-about-modestra .modestra-baisc-guideline {
+  margin: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+.dashboard-about-modestra .modestra-baisc-guideline .featured-box {
+  padding: 15px 0;
+  border-bottom: 1px solid #ededed;
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+.dashboard-about-modestra h3.modestra-baisc-guideline-header {
+  width: 100%;
+  display: inline-block;
+  margin: 20px 0 0;
+}
+.dashboard-about-modestra .modestra-baisc-guideline .featured-box li strong {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.dashboard-about-modestra h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.modestra-admin-notice {
+  display: flex;
+}
+.modestra-admin-notice .info-content {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.modestra-admin-notice .theme-hero-screens {
+  text-align: right;
+  width: 40%;
+}
+.modestra-admin-notice .theme-hero-screens img {
+  max-width: 100%;
+  margin: -10px -38px -14px 0;
+  max-height: 175px;
+}
+.dashboard-about-modestra p {
+  font-size: 16px;
+}
+.modestra-dashboard #modestra-dashboard-tabs-nav {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 3px;
+}
+.modestra-dashboard #modestra-dashboard-tabs-nav li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+
+.modestra-dashboard #modestra-dashboard-tabs-nav li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 16px;
+  color: #101010;
+  border-radius: 0;
+  display: inline-block;
+  border-radius: 0;
+  transition: ease all 0.23s;
+  background: #ededed;
+}
+.modestra-dashboard #modestra-dashboard-tabs-nav li a:hover {
+  color: #4f43ff;
+}
+.modestra-dashboard #modestra-dashboard-tabs-nav li.active a {
+  background: #4f43ff;
+  color: #ffffff;
+}
+.modestra-dashboard #tabs-content {
+  padding: 20px 0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.modestra-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner {
+  padding-right: 50px;
+  position: relative;
+}
+/*processing-spinner*/
+.modestra-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner:before {
+  content: "";
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #4f43ff;
+  display: inline-block;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: processingLocader 1s ease-in infinite;
+}
+@keyframes processingLocader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+.installing-all-pluign.info-button {
+  background: #2271b1;
+  margin: 0 0 40px;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 12px;
+  font-size: 18px;
+}
+.modestra-hero-screens {
+  background: url(../../inc/admin/images/modestra-patterns.png) no-repeat;
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  padding: 28px;
+  box-sizing: border-box;
+}
+
+.modestra-intro {
+  max-width: 70%;
+  color: #fff;
+}
+.dashboard-about-modestra .modestra-intro h1 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 600;
+  margin: 0 0 -2px;
+}
+.dashboard-about-modestra .modestra-intro a.theme-details {
+  background: #fff;
+  color: #4f43ff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 16px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.dashboard-about-modestra .modestra-intro a.theme-details:hover {
+  background: #ff598e;
+  color: #fff;
+}
+.modestra-features-dash {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border: 1px solid #e9e8fc;
+}
+.modestra-features-dash .modestra-features-box {
+  border: 1px solid #e9e8fc;
+  padding: 20px;
+}
+.modestra-features-dash .modestra-features-box h4 {
+  font-size: 16px;
+  margin: 0;
+  line-height: 20px;
+}
+.modestra-features-dash .modestra-features-box a.modestra-patterns-demo {
+  color: #4f43ff;
+}
+.modestra-features-dash .modestra-features-box a.modestra-patterns-demo:hover {
+  color: #ff598e;
+}
+h3.dash-modestra-patterns-header {
+  margin: 40px 0 28px;
+}
+.modestra-dashboard #tabs-content a#install-activate-button {
+  background: #4f43ff;
+  color: #fff;
+}
+.modestra-dashboard #tabs-content a#install-activate-button:hover {
+  background: #ff598e;
+  border-color: #ff598e;
+}
+.half-col.pro-features h4 {
+  font-size: 16px;
+}

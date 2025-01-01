@@ -1,0 +1,79 @@
+.elementor-218 .elementor-element.elementor-element-5b774d9{--display:flex;--min-height:0px;--justify-content:flex-start;--gap:0px 0px;--row-gap:0px;--column-gap:0px;}.elementor-218 .elementor-element.elementor-element-5b774d9.e-con{--align-self:stretch;--order:99999 /* order end hack */;--flex-grow:0;--flex-shrink:0;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-218 .elementor-element.elementor-element-2a4b2ff.elementor-element{--align-self:center;}.elementor-218 .elementor-element.elementor-element-2a4b2ff .elementor-heading-title{text-shadow:0px 0px 0px rgba(0,0,0,0.3);color:#000000;}.elementor-218 .elementor-element.elementor-element-d9d15af{width:var( --container-widget-width, 111.336% );max-width:111.336%;--container-widget-width:111.336%;--container-widget-flex-grow:0;}.elementor-218 .elementor-element.elementor-element-d9d15af.elementor-element{--align-self:center;--flex-grow:0;--flex-shrink:0;}.elementor-218 .elementor-element.elementor-element-d9d15af .glsr:not([data-theme]) .glsr-review .glsr-star{--glsr-review-star:1.125em;}.elementor-218 .elementor-element.elementor-element-d9d15af .glsr:not([data-theme]) .glsr-review{text-align:center;justify-content:center;}.elementor-218 .elementor-element.elementor-element-d9d15af .glsr:not([data-theme]) .glsr-review .glsr-review-actions{justify-content:center;}.elementor-218 .elementor-element.elementor-element-d9d15af .glsr:not([data-theme]) .glsr-review .glsr-review-date{flex:inherit;}.elementor-218 .elementor-element.elementor-element-d9d15af .glsr-reviews{--glsr-gap-xl:2.375em;}@media(min-width:768px){.elementor-218 .elementor-element.elementor-element-5b774d9{--width:80.423%;}}/* Start custom CSS for site_reviews, class: .elementor-element-d9d15af *//* Center pagination */
+.glsr-twentytwentytwo .glsr-pagination .pagination {
+    display: flex !important;
+    justify-content: center !important; /* Center align the pagination buttons */
+    align-items: center !important; /* Ensure items are centered vertically */
+    gap: 10px !important; /* Space between pagination buttons */
+    padding: 10px 0 !important; /* Space around the pagination */
+    flex-wrap: wrap !important; /* Ensure it doesn't overflow on smaller screens */
+}
+
+/* Style individual pagination buttons */
+.glsr-pagination .page-numbers {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    color: white !important; /* White text for numbers */
+    background-color: #007bff !important; /* Blue background */
+    border: 1px solid #007bff !important; /* Blue border */
+    border-radius: 5px !important;
+    transition: background-color 0.3s ease, color 0.3s ease !important; /* Smooth transition */
+    text-align: center !important;
+}
+
+/* Pagination hover effect */
+.glsr-pagination .page-numbers:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+    color: #fff !important; /* Ensure text stays white on hover */
+}
+
+/* Active page button style */
+.glsr-pagination .current {
+    background-color: #0056b3 !important; /* Darker blue for active page */
+    color: white !important; /* White text for active page */
+    font-weight: bold !important; /* Bold text for active page */
+}
+
+/* Previous and Next buttons */
+.glsr-pagination .prev, .glsr-pagination .next {
+    display: inline-block !important;
+    padding: 10px 15px !important;
+    font-size: 16px !important;
+    color: white !important;
+    background-color: #007bff !important; /* Blue background */
+    border: 1px solid #007bff !important; /* Blue border */
+    border-radius: 5px !important;
+    transition: background-color 0.3s ease !important;
+    text-align: center !important;
+}
+
+/* Hover effect for Previous/Next buttons */
+.glsr-pagination .prev:hover, .glsr-pagination .next:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+    color: #fff !important; /* Ensure text stays white */
+}
+
+/* Disable previous/next when at the first/last page */
+.glsr-pagination .disabled {
+    background-color: #ccc !important; /* Gray background for disabled */
+    color: #666 !important; /* Light gray text */
+    cursor: not-allowed !important;
+}
+
+/* Ensure that Previous and Next buttons are visible always */
+.glsr-pagination .prev, .glsr-pagination .next {
+    visibility: visible !important; /* Keep previous/next buttons always visible */
+}
+
+/* Optional: Adjust pagination on mobile */
+@media (max-width: 768px) {
+    .glsr-pagination .page-numbers {
+        font-size: 14px !important; /* Slightly smaller font size on mobile */
+        padding: 8px 15px !important; /* Smaller padding on mobile */
+    }
+    
+    .glsr-pagination .prev, .glsr-pagination .next {
+        font-size: 14px !important; /* Adjust font size for prev/next on mobile */
+        padding: 8px 12px !important; /* Smaller padding on prev/next on mobile */
+    }
+}/* End custom CSS */

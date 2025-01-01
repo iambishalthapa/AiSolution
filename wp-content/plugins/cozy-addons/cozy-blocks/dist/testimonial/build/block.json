@@ -1,0 +1,115 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/testimonial",
+  "title": "Testimonials",
+  "description": "Build trust and credibility with our 'Testimonial' block, providing grid and carousel layouts to elegantly showcase user feedback and positive experiences.",
+  "category": "cozy-block",
+  "example": {},
+  "icon": "<svg width=\"27\" height=\"28\" viewBox=\"0 0 27 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M21.4636 0.347861L20.243 2.93348L17.5122 3.34944C17.0224 3.42365 16.8262 4.05443 17.1813 4.41572L19.157 6.42719L18.6897 9.26863C18.6056 9.78224 19.1234 10.167 19.557 9.92675L22 8.58512L24.443 9.92675C24.8766 10.165 25.3944 9.78224 25.3103 9.26863L24.843 6.42719L26.8187 4.41572C27.1738 4.05443 26.9776 3.42365 26.4878 3.34944L23.757 2.93348L22.5364 0.347861C22.3178 -0.11302 21.6841 -0.118878 21.4636 0.347861Z\" fill=\"#36CFC6\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1.35741 4.75447C2.25229 4.03672 3.46408 3.99999 4.57846 4H15.9589V4.8731H4.57845C3.41673 4.87309 2.58003 4.93955 1.99545 5.40842C1.41905 5.87073 0.962963 6.83672 0.962963 8.97666V18.676C0.962963 19.1864 1.14596 19.9501 1.67757 20.5555C2.1887 21.1377 3.05856 21.6173 4.55174 21.542L4.56509 21.5414H8.70168V26.2743L15.801 21.5414H21.2066L21.2192 21.542C21.8742 21.5732 22.8542 21.4573 23.6517 21.0295C24.4179 20.6186 25.037 19.9131 25.037 18.676V11.4531H26V18.676C26 20.2456 25.1777 21.2255 24.142 21.781C23.1431 22.3168 21.9682 22.4499 21.1817 22.4145H16.1169L7.73872 28V22.4145H4.59155C2.81477 22.5007 1.64031 21.9149 0.92418 21.0993C0.226697 20.3049 0 19.335 0 18.676V8.97666C0 6.78287 0.454348 5.47879 1.35741 4.75447Z\" fill=\"#5566CA\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17 11H4V10H17V11Z\" fill=\"#C7CDF4\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 14H4V13H15V14Z\" fill=\"#C7CDF4\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M21 17H4V16H21V17Z\" fill=\"#C7CDF4\"/></svg>",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "layout": {
+      "type": "string",
+      "default": "carousel"
+    },
+    "hoverShow": {
+      "type": "boolean",
+      "default": true
+    },
+    "gridOptions": {
+      "type": "object",
+      "default": {
+        "displayColumn": 3,
+        "masonryEnabled": false,
+        "columnGap": 30
+      }
+    },
+    "carouselOptions": {
+      "type": "object",
+      "default": {
+        "pagination": {
+          "enabled": true,
+          "width": 10,
+          "height": 10,
+          "borderRadius": 10,
+          "activeWidth": 10,
+          "activeHeight": 10,
+          "activeBorder": {
+            "width": "",
+            "style": "",
+            "color": ""
+          },
+          "activeOffset": 0,
+          "gap": 4,
+          "activeBorderRadius": 10,
+          "activeColor": "#007cba",
+          "color": "#252525",
+          "activeColorHover": "#164861",
+          "colorHover": "#a5a5a5",
+          "activeBorderHover": "",
+          "align": "center",
+          "positionVertical": -20,
+          "left": "0px",
+          "right": "0px"
+        },
+        "navigation": {
+          "enabled": true,
+          "iconSize": 15,
+          "iconBoxWidth": 35,
+          "iconBoxHeight": 35,
+          "borderRadius": 50,
+          "borderType": "none",
+          "borderWidth": 1,
+          "borderColor": "#000",
+          "borderColorHover": "",
+          "backgroundColor": "#fff",
+          "color": "#007cba",
+          "backgroundColorHover": "#007cba",
+          "colorHover": "#fff",
+          "padding": {
+            "top": 5,
+            "right": 5,
+            "bottom": 5,
+            "left": 5
+          }
+        },
+        "sliderOptions": {
+          "loop": false,
+          "autoplay": {
+            "enabled": true,
+            "pauseOnMouseEnter": true,
+            "delay": 2500
+          },
+          "centeredSlides": false,
+          "slidesPerView": 1,
+          "spaceBetween": 30,
+          "speed": 700
+        }
+      }
+    }
+  },
+  "editorScript": [
+    "cozy-block--testimonial"
+  ],
+  "editorStyle": "cozy-block--testimonial--editor-style",
+  "style": [
+    "cozy-block--testimonial--style",
+    "cozy-swiper-bundle"
+  ],
+  "viewScript": [
+    "cozy-block-scripts",
+    "cozy-swiper-bundle"
+  ],
+  "render": "file:./render.php"
+}

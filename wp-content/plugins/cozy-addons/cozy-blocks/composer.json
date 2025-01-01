@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "CozyBlock\\": "includes/",
+      "CozyBlock\\Pattern\\": "includes/Pattern/",
+      "CozyBlock\\RestApi\\": "includes/RestApi/",
+      "CozyBlock\\RestApi\\Controllers\\V1\\": "includes/RestApi/Controllers/V1/",
+      "CozyBlock\\Abstracts\\": "includes/Abstracts/",
+      "CozyBlock\\WPCoreBlocks\\": "includes/WPCoreBlocks/",
+      "CozyBlock\\Helpers\\": "includes/Helpers/"
+    }
+  }
+}

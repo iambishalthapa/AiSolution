@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/cta",
+  "title": "Call to Action",
+  "description": "Boost interaction with our 'Call to Action' block, strategically placed to inspire users to take the next step, whether it's making a purchase or subscribing.",
+  "category": "cozy-block",
+  "example": {},
+  "icon": "<svg width=\"26\" height=\"23\" viewBox=\"0 0 26 23\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"white\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"22\" rx=\"2.5\" stroke=\"#5566CA\"/><path d=\"M9.5 6.5C9.5 4.567 11.067 3 13 3C14.933 3 16.5 4.567 16.5 6.5C16.5 8.433 14.933 10 13 10C11.067 10 9.5 8.433 9.5 6.5Z\" fill=\"#B2BCF9\"/><path d=\"M14.5 6.5L15.5 8H12.5L14.5 6.5Z\" fill=\"#96A2EA\"/><path d=\"M12.5 5L14.5 8H10.5L12.5 5Z\" fill=\"#7689F6\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M23 14.5H3V13.5H13H23V14.5Z\" fill=\"#B2BCF9\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20 12.5H6V11.5H13H20V12.5Z\" fill=\"#B2BCF9\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M19 16.5H7V15.5H13H19V16.5Z\" fill=\"#B2BCF9\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16 19C16 19.5523 15.5523 20 15 20H11C10.4477 20 10 19.5523 10 19C10 18.4477 10.4477 18 11 18H13H15C15.5523 18 16 18.4477 16 19Z\" fill=\"#36CFC6\"/></svg>",
+  "supports": {
+    "html": false
+  },
+  "attributes": {},
+  "editorScript": [
+    "cozy-block--cta"
+  ],
+  "editorStyle": "cozy-block--cta--editor-style",
+  "style": [
+    "cozy-block--cta--style"
+  ],
+  "render": "file:./render.php"
+}

@@ -1,0 +1,559 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Featured Image (Auto Generated)\n"
+"POT-Creation-Date: 2023-01-23 16:20-0500\n"
+"PO-Revision-Date: 2023-01-23 16:20-0500\n"
+"Last-Translator: Jodacame <jodacame@gmail.com>\n"
+"Language-Team: Jodacame <jodacame@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/Admin.class.php:102
+msgid "Unsplash"
+msgstr ""
+
+#: admin/Admin.class.php:103
+msgid "Pexels"
+msgstr ""
+
+#: admin/Admin.class.php:104
+msgid "Pixabay"
+msgstr ""
+
+#: admin/Admin.class.php:105
+msgid "Youtube"
+msgstr ""
+
+#: admin/Admin.class.php:106
+msgid "Dall-E"
+msgstr ""
+
+#: admin/Admin.class.php:107
+msgid "Imagick"
+msgstr ""
+
+#: admin/Admin.class.php:108
+msgid "Solid Color"
+msgstr ""
+
+#: admin/Admin.class.php:109
+msgid "All With Source"
+msgstr ""
+
+#: admin/Admin.class.php:113
+msgid "All"
+msgstr ""
+
+#: admin/Admin.class.php:153 admin/Admin.class.php:195
+msgid "Source"
+msgstr ""
+
+#: admin/Admin.class.php:154 admin/Admin.class.php:201
+msgid "Custom ID"
+msgstr ""
+
+#: admin/Admin.class.php:205
+msgid "ID of this image"
+msgstr ""
+
+#: admin/Admin.class.php:219 admin/Admin.class.php:352
+#: admin/Admin.class.php:353 admin/views/settings.php:11
+msgid "Auto Featured Image"
+msgstr ""
+
+#: admin/Admin.class.php:236 admin/views/settings.php:377
+#: admin/views/settings.php:396
+msgid "Disabled"
+msgstr ""
+
+#: admin/Admin.class.php:284
+msgid "TTF Fonts"
+msgstr ""
+
+#: admin/Admin.class.php:284
+msgid "Manage TTF Fonts"
+msgstr ""
+
+#: admin/Admin.class.php:284
+#, php-format
+msgid "TTF Font <span class=\"count\">(%s)</span>"
+msgid_plural "TTF Fonts <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/Admin.class.php:362 admin/Admin.class.php:363
+msgid "Settings"
+msgstr ""
+
+#: admin/Admin.class.php:437
+msgid "Local (From Media Library)"
+msgstr ""
+
+#: admin/Admin.class.php:438
+msgid "[PRO] - Unsplash"
+msgstr ""
+
+#: admin/Admin.class.php:439
+msgid "[PRO] - Pixabay"
+msgstr ""
+
+#: admin/Admin.class.php:440
+msgid "[PRO] - Pexels"
+msgstr ""
+
+#: admin/Admin.class.php:441
+msgid "[PRO] - Dall-E (AI) Artificial Intelligence"
+msgstr ""
+
+#: admin/Admin.class.php:442
+msgid "Random Gradient (Imagick)"
+msgstr ""
+
+#: admin/Admin.class.php:443
+msgid "Random Plasma (Imagick)"
+msgstr ""
+
+#: admin/Admin.class.php:444
+msgid "Random Solid Color"
+msgstr ""
+
+#: admin/Admin.class.php:593
+msgid "No image found"
+msgstr ""
+
+#: admin/views/settings.php:15
+msgid "Save"
+msgstr ""
+
+#: admin/views/settings.php:23
+msgid "Text"
+msgstr ""
+
+#: admin/views/settings.php:24
+msgid "Image"
+msgstr ""
+
+#: admin/views/settings.php:25
+msgid "Advance"
+msgstr ""
+
+#: admin/views/settings.php:26
+msgid "System"
+msgstr ""
+
+#: admin/views/settings.php:29
+msgid "Text Settings"
+msgstr ""
+
+#: admin/views/settings.php:32
+msgid "Print"
+msgstr ""
+
+#: admin/views/settings.php:34 admin/views/settings.php:211
+msgid "Post Title"
+msgstr ""
+
+#: admin/views/settings.php:38 admin/views/settings.php:46
+#: admin/views/settings.php:212
+msgid "Primary Category"
+msgstr ""
+
+#: admin/views/settings.php:47
+msgid "Only for PRO version"
+msgstr ""
+
+#: admin/views/settings.php:52 admin/views/settings.php:114
+msgid "None"
+msgstr ""
+
+#: admin/views/settings.php:58
+msgid "Font Size"
+msgstr ""
+
+#: admin/views/settings.php:63
+msgid "Font Color"
+msgstr ""
+
+#: admin/views/settings.php:68
+msgid "Font Family"
+msgstr ""
+
+#: admin/views/settings.php:73
+#, php-format
+msgid "Upload your fonts (.ttf) in your %s"
+msgstr ""
+
+#: admin/views/settings.php:73 admin/views/settings.php:403
+msgid "Media Library"
+msgstr ""
+
+#: admin/views/settings.php:78
+msgid "Arial"
+msgstr ""
+
+#: admin/views/settings.php:79
+msgid "Arial Bold"
+msgstr ""
+
+#: admin/views/settings.php:80
+msgid "Bangers"
+msgstr ""
+
+#: admin/views/settings.php:81
+msgid "Faster One"
+msgstr ""
+
+#: admin/views/settings.php:82
+msgid "Fugaz One"
+msgstr ""
+
+#: admin/views/settings.php:83
+msgid "Monoton"
+msgstr ""
+
+#: admin/views/settings.php:84
+msgid "Ubuntu Medium"
+msgstr ""
+
+#: admin/views/settings.php:85
+msgid "Ubuntu Bold"
+msgstr ""
+
+#: admin/views/settings.php:87
+msgid "Custom Fonts"
+msgstr ""
+
+#: admin/views/settings.php:89
+msgid "Unlocked in PRO version"
+msgstr ""
+
+#: admin/views/settings.php:102
+msgid "Custom fonts not available."
+msgstr ""
+
+#: admin/views/settings.php:112
+msgid "Transform"
+msgstr ""
+
+#: admin/views/settings.php:115
+msgid "UPPECASE"
+msgstr ""
+
+#: admin/views/settings.php:116
+msgid "lowercase"
+msgstr ""
+
+#: admin/views/settings.php:117
+msgid "Capitalize"
+msgstr ""
+
+#: admin/views/settings.php:122
+msgid "Highlight Settings"
+msgstr ""
+
+#: admin/views/settings.php:128
+msgid "Highlight Color"
+msgstr ""
+
+#: admin/views/settings.php:132
+msgid "Highlight Opacity"
+msgstr ""
+
+#: admin/views/settings.php:141
+msgid "Overlay Background Settings"
+msgstr ""
+
+#: admin/views/settings.php:144
+msgid "Background Color"
+msgstr ""
+
+#: admin/views/settings.php:149
+msgid "Background Opacity"
+msgstr ""
+
+#: admin/views/settings.php:155
+msgid "Text Position Settings"
+msgstr ""
+
+#: admin/views/settings.php:158
+msgid "Text Position"
+msgstr ""
+
+#: admin/views/settings.php:160
+msgid "Top"
+msgstr ""
+
+#: admin/views/settings.php:161 admin/views/settings.php:173
+msgid "Center"
+msgstr ""
+
+#: admin/views/settings.php:162
+msgid "Bottom"
+msgstr ""
+
+#: admin/views/settings.php:170
+msgid "Text Align"
+msgstr ""
+
+#: admin/views/settings.php:172
+msgid "Left"
+msgstr ""
+
+#: admin/views/settings.php:174
+msgid "Right"
+msgstr ""
+
+#: admin/views/settings.php:183
+msgid "Background Settings"
+msgstr ""
+
+#: admin/views/settings.php:185
+msgid "Image Source"
+msgstr ""
+
+#: admin/views/settings.php:188
+msgid "PRO Version allows you to use multiple sources."
+msgstr ""
+
+#: admin/views/settings.php:200
+msgid "Premium Feature"
+msgstr ""
+
+#: admin/views/settings.php:209
+msgid "Query"
+msgstr ""
+
+#: admin/views/settings.php:213
+msgid "First Tag"
+msgstr ""
+
+#: admin/views/settings.php:214 admin/views/settings.php:218
+msgid "Custom Query"
+msgstr ""
+
+#: admin/views/settings.php:220
+msgid "This will be used if you select \"Custom Query\" above."
+msgstr ""
+
+#: admin/views/settings.php:223
+msgid "Ex: nature, flowers, animals"
+msgstr ""
+
+#: admin/views/settings.php:227
+msgid "Use Youtube Image"
+msgstr ""
+
+#: admin/views/settings.php:229
+msgid ""
+"If content has a Youtube video, it will be used as background image instead "
+"of the selected source."
+msgstr ""
+
+#: admin/views/settings.php:239
+msgid "External Services"
+msgstr ""
+
+#: admin/views/settings.php:243
+#, php-format
+msgid "You are using the free version of %s. Some features are disabled. %s"
+msgstr ""
+
+#: admin/views/settings.php:243
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: admin/views/settings.php:249
+msgid "Pixabay API Key"
+msgstr ""
+
+#: admin/views/settings.php:251
+#, php-format
+msgid "Get your API Key %s"
+msgstr ""
+
+#: admin/views/settings.php:257
+msgid "Unsplash Access Key"
+msgstr ""
+
+#: admin/views/settings.php:259 admin/views/settings.php:267
+#: admin/views/settings.php:275
+#, php-format
+msgid "Get your Access Key %s"
+msgstr ""
+
+#: admin/views/settings.php:265
+msgid "Pexels Access Key"
+msgstr ""
+
+#: admin/views/settings.php:273
+msgid "OpenAI Access Key"
+msgstr ""
+
+#: admin/views/settings.php:282
+msgid "Dall-E Prompt"
+msgstr ""
+
+#: admin/views/settings.php:298
+msgid "Advance Settings"
+msgstr ""
+
+#: admin/views/settings.php:301
+msgid "Post Types"
+msgstr ""
+
+#: admin/views/settings.php:303
+msgid "Enable for these post types"
+msgstr ""
+
+#: admin/views/settings.php:305 admin/views/settings.php:338
+#: admin/views/settings.php:350
+msgid "Only available in PRO version"
+msgstr ""
+
+#: admin/views/settings.php:318
+msgid "Post Status"
+msgstr ""
+
+#: admin/views/settings.php:319
+msgid "Enable for these post status"
+msgstr ""
+
+#: admin/views/settings.php:334
+msgid "Prefix Text"
+msgstr ""
+
+#: admin/views/settings.php:336
+msgid "Text to add before the title"
+msgstr ""
+
+#: admin/views/settings.php:346
+msgid "Suffix Text"
+msgstr ""
+
+#: admin/views/settings.php:348
+msgid "Text to add after the title"
+msgstr ""
+
+#: admin/views/settings.php:356
+msgid "Danger Zone"
+msgstr ""
+
+#: admin/views/settings.php:358
+msgid "On Uninstall"
+msgstr ""
+
+#: admin/views/settings.php:361
+msgid "Delete All Data"
+msgstr ""
+
+#: admin/views/settings.php:362
+msgid "Keep All Data"
+msgstr ""
+
+#: admin/views/settings.php:368
+msgid "System & Debug"
+msgstr ""
+
+#: admin/views/settings.php:370
+msgid "GD Library"
+msgstr ""
+
+#: admin/views/settings.php:373 admin/views/settings.php:391
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/settings.php:384
+msgid "ImageMagick Library"
+msgstr ""
+
+#: admin/views/settings.php:386
+#, php-format
+msgid "For more information about ImageMagick, please visit %s"
+msgstr ""
+
+#: admin/views/settings.php:404
+msgid "Number of images generated by the plugin"
+msgstr ""
+
+#: admin/views/settings.php:412
+msgid "View All"
+msgstr ""
+
+#: admin/views/settings.php:422
+msgid "PRO Version"
+msgstr ""
+
+#: admin/views/settings.php:423
+msgid "Is PRO version active?"
+msgstr ""
+
+#: admin/views/settings.php:429
+msgid "Yes"
+msgstr ""
+
+#: admin/views/settings.php:432
+msgid "No"
+msgstr ""
+
+#: admin/views/settings.php:434
+msgid "Get PRO"
+msgstr ""
+
+#: admin/views/settings.php:456
+msgid "Posts"
+msgstr ""
+
+#: admin/views/settings.php:458
+msgid "Last 10 post whitout featured image"
+msgstr ""
+
+#: admin/views/settings.php:462
+msgid "Select post to generate featured image"
+msgstr ""
+
+#: admin/views/settings.php:470
+msgid "Generate Preview"
+msgstr ""
+
+#: admin/views/settings.php:473
+msgid ""
+"This is a preview of the featured image generated by the plugin, it is not "
+"set as featured image."
+msgstr ""
+
+#: admin/views/settings.php:481
+#, php-format
+msgid "Use discount code %s to get %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Auto Featured Image (Auto Generated)"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically generate a featured image from the post title (Background with "
+"post title overlay). This plugins generate a featured image using the post "
+"title. The image is saved in the media library and set as featured image."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jodacame"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://jodacame.dev"
+msgstr ""

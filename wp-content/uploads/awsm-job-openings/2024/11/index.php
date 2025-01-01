@@ -1,0 +1,1 @@
+<?php\n\n//Silence is golden.\n

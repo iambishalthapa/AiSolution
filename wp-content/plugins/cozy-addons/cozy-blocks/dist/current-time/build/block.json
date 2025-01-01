@@ -1,0 +1,111 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/date-time",
+  "title": "Date & Time",
+  "description": "Stay updated with our 'Date & Time' block, effortlessly displaying the current time and date to keep your audience informed and engaged.",
+  "category": "cozy-block",
+  "example": {},
+  "icon": "<svg width='29' height='24' viewBox='0 0 29 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M25 6.5C25 6.77614 24.7761 7 24.5 7H3.5C3.22386 7 3 6.77614 3 6.5C3 6.22386 3.22386 6 3.5 6H24.5C24.7761 6 25 6.22386 25 6.5Z' fill='#5566CA'/><path fill-rule='evenodd' clip-rule='evenodd' d='M6.5 4C6.22386 4 6 3.77614 6 3.5L6 0.5C6 0.223858 6.22386 -3.39283e-08 6.5 -2.1857e-08C6.77614 -9.7857e-09 7 0.223858 7 0.5L7 3.5C7 3.77614 6.77614 4 6.5 4Z' fill='#5566CA'/><path fill-rule='evenodd' clip-rule='evenodd' d='M21.5 4C21.2239 4 21 3.77614 21 3.5L21 0.5C21 0.223858 21.2239 -3.39283e-08 21.5 -2.1857e-08C21.7761 -9.7857e-09 22 0.223858 22 0.5L22 3.5C22 3.77614 21.7761 4 21.5 4Z' fill='#5566CA'/><path fill-rule='evenodd' clip-rule='evenodd' d='M22.5 20C22.2239 20 22 19.7761 22 19.5L22 16.5C22 16.2239 22.2239 16 22.5 16C22.7761 16 23 16.2239 23 16.5L23 19.5C23 19.7761 22.7761 20 22.5 20Z' fill='#36CFC6'/><path fill-rule='evenodd' clip-rule='evenodd' d='M25 19.5C25 19.7761 24.7761 20 24.5 20H22.5C22.2239 20 22 19.7761 22 19.5C22 19.2239 22.2239 19 22.5 19H24.5C24.7761 19 25 19.2239 25 19.5Z' fill='#36CFC6'/><path fill-rule='evenodd' clip-rule='evenodd' d='M23 23C25.7614 23 28 20.7614 28 18C28 15.2386 25.7614 13 23 13C20.2386 13 18 15.2386 18 18C18 20.7614 20.2386 23 23 23ZM23 24C26.3137 24 29 21.3137 29 18C29 14.6863 26.3137 12 23 12C19.6863 12 17 14.6863 17 18C17 21.3137 19.6863 24 23 24Z' fill='#36CFC6'/><path fill-rule='evenodd' clip-rule='evenodd' d='M1.51432 3.2076C1.47602 3.40205 1.47251 3.64606 1.47267 3.99978L1.47267 18C1.47267 19.8915 2.05612 20.6948 2.6729 21.0742C3.34598 21.4884 4.1993 21.5001 4.97259 21.5H16.9727C17.2488 21.5 17.4727 21.7239 17.4727 22C17.4727 22.2761 17.2488 22.5 16.9727 22.5H4.97275C4.95914 22.5 4.94529 22.5 4.93138 22.5C4.20487 22.5004 3.08335 22.5009 2.14889 21.926C1.14018 21.3054 0.472671 20.1086 0.472671 18L0.472671 4.00009C0.472524 3.67065 0.472375 3.32299 0.53318 3.01432C0.59796 2.68548 0.73759 2.36508 1.03614 2.1083C1.32111 1.8632 1.70338 1.71764 2.17116 1.62887C2.64138 1.53965 3.24257 1.49986 4.00674 1.5H24C25.2926 1.50006 26.2262 1.75402 26.8035 2.42351C27.3645 3.07413 27.4746 3.99486 27.4746 5.00025V12.0002C27.4746 12.2764 27.2507 12.5002 26.9746 12.5002C26.6985 12.5002 26.4746 12.2764 26.4746 12.0002V5.00025C26.4746 4.00528 26.3474 3.42594 26.0461 3.07655C25.7611 2.74603 25.2074 2.50005 24 2.5H4.00674C3.26789 2.49986 2.73816 2.53913 2.35759 2.61134C1.97457 2.68402 1.78608 2.78228 1.68822 2.86645C1.60395 2.93894 1.54867 3.03325 1.51432 3.2076Z' fill='#5566CA'/><circle cx='6.5' cy='10.5' r='1.5' fill='#B2BCF9'/><circle cx='6.5' cy='15.5' r='1.5' fill='#B2BCF9'/><circle cx='11.5' cy='10.5' r='1.5' fill='#36CFC6'/><circle cx='11.5' cy='15.5' r='1.5' fill='#B2BCF9'/></svg>",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "layout": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "left": 5
+        },
+        "borderRadius": {
+          "topL": 6,
+          "topR": 6,
+          "bottomL": 6,
+          "bottomR": 6
+        },
+        "textAlign": "center",
+        "display": "flex",
+        "gap": 10,
+        "marginBottom": 10,
+        "styles": {
+          "fontFamily": "Public Sans",
+          "fontSize": 14,
+          "fontWeight": "400",
+          "letterCase": "none",
+          "decoration": "none",
+          "lineHeight": "",
+          "letterSpacing": "",
+          "color": "#000",
+          "bgColor": "#fff"
+        }
+      }
+    },
+    "abbr": {
+      "type": "boolean",
+      "default": false
+    },
+    "week": {
+      "type": "object",
+      "default": {
+        "enabled": true
+      }
+    },
+    "date": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "format": "m-d-y"
+      }
+    },
+    "time": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "timeFormat": true,
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "borderRadius": {
+          "topL": 0,
+          "topR": 0,
+          "bottomL": 0,
+          "bottomR": 0
+        },
+        "styles": {
+          "fontSize": "",
+          "fontWeight": "",
+          "fontFamily": "",
+          "letterCase": "none",
+          "decoration": "none",
+          "lineHeight": "",
+          "letterSpacing": "",
+          "color": "",
+          "bgColor": ""
+        }
+      }
+    }
+  },
+  "editorScript": "cozy-block--current-time",
+  "editorStyle": "cozy-block--current-time--editor-style",
+  "viewScript": [
+    "cozy-block-scripts"
+  ],
+  "style": [
+    "cozy-block--current-time--style"
+  ],
+  "render": "file:./render.php"
+}

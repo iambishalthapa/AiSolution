@@ -1,0 +1,118 @@
+.elementor-element-wrapper i.cozy-widget-icons {
+  color: #5552eb;
+}
+.elementor-element-wrapper:hover i.cozy-widget-icons {
+  color: #92003b;
+}
+#elementor-panel-category-cozy-addons-items .elementor-element-wrapper,
+#elementor-panel-content-wrapper .elementor-element-wrapper {
+  position: relative;
+}
+#elementor-panel-category-cozy-addons-items .elementor-element-wrapper i.cozy-widget-icons:after,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-widget-icons:after {
+  content: "COZY";
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  color: #5552eb;
+  z-index: 11;
+  font-size: 8px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-course-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-team-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-clock-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-typeout-text.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-cart-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-sidebarpanel-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-toggle-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-account-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-events-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-working-hours.cozy-widget-icons:before {
+  content: "";
+  margin-bottom: -6px;
+  height: 28px;
+  position: relative;
+  background-color: #5552eb;
+  display: inline-block;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-course-icon.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_course.svg");
+  mask-image: url("../images/cozy_course.svg");
+  width: 37px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-working-hours.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_working_hours.svg");
+  mask-image: url("../images/cozy_working_hours.svg");
+  width: 28px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-team-icon.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_team.svg");
+  mask-image: url("../images/cozy_team.svg");
+  width: 36px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-clock-icon.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_clock.svg");
+  mask-image: url("../images/cozy_clock.svg");
+  width: 28px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-typeout-text.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_typeout.svg");
+  mask-image: url("../images/cozy_typeout.svg");
+  width: 36px;
+  height: 20px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-cart-icon.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_cart.svg");
+  mask-image: url("../images/cozy_cart.svg");
+  width: 33.5px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-sidebarpanel-icon.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_sidebar_panel.svg");
+  mask-image: url("../images/cozy_sidebar_panel.svg");
+  width: 33px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-toggle-icon.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_toggle.svg");
+  mask-image: url("../images/cozy_toggle.svg");
+  width: 37px;
+  height: 20px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-account-icon.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_account.svg");
+  mask-image: url("../images/cozy_account.svg");
+  width: 28px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper i.cozy-events-icon.cozy-widget-icons:before {
+  -webkit-mask-image: url("../images/cozy_calender.svg");
+  mask-image: url("../images/cozy_calender.svg");
+  width: 30px;
+}
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-course-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-team-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-clock-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-typeout-text.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-sidebarpanel-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-cart-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-toggle-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-account-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-events-icon.cozy-widget-icons:before,
+#elementor-panel-content-wrapper .elementor-element-wrapper:hover i.cozy-working-hours.cozy-widget-icons:before {
+  background-color: #92003b;
+}
+button.cozy-addons-dialog-cta + button.elementor-button.go-pro {
+  display: none !important;
+}
+
+button.elementor-button.elementor-button-success.dialog-button.dialog-action.dialog-buttons-action.cozy-addons-dialog-cta {
+  display: block;
+}
+.elementor-control.elementor-control-slider_select_layout .elementor-control-field-description,
+.elementor-control.elementor-control-popular_post_select_layout .elementor-control-field-description,
+.elementor-control.elementor-control-focuspost_select_layout .elementor-control-field-description {
+  color: #ff0000;
+}
+.elementor-control-raw-html.ct-upsell-notice {
+  color: #232323;
+  line-height: 17px;
+  font-weight: 300;
+}

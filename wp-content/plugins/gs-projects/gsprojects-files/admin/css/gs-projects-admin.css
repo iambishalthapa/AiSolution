@@ -1,0 +1,39 @@
+#titlediv #title {
+  border-radius: 5px;
+}
+#gsProjectsSection {
+  min-width: 255px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  background: #fff;
+  overflow: hidden;
+}
+.gs_projects-metafields .form-group {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.gs_projects-metafields label {
+  width: 20%;
+  padding: 6px 0px;
+  float: left;
+}
+.gs_projects-metafields .form-control {
+  border-radius: 5px;
+  padding: 5px 15px;
+  display: inline-block;
+  float: left;
+  width: 79%;
+  box-shadow: none;
+  height: auto;
+  border: 1px solid #e1e1e1;
+}
+.gs_projects-metafields h2 {
+  font-weight: 600 !important;
+  padding: 8px 12px 8px 0 !important;
+  font-style: italic;
+}
+.post-type-gs_projects .wp-editor-container iframe {
+  height: 200px !important;
+}
+
+

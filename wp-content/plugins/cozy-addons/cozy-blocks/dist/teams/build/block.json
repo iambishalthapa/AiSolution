@@ -1,0 +1,115 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/teams",
+  "title": "Teams",
+  "description": "Introduce your team in style with our 'Team' block, offering both grid and carousel layouts for a visually appealing display of your talented lineup.",
+  "category": "cozy-block",
+  "example": {},
+  "icon": "<svg width=\"28\" height=\"20\" viewBox=\"0 0 28 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"white\" d=\"M19.4074 10.3922L18.9318 10.8637L19.519 11.1857C21.0033 11.9997 22.0533 13.4668 22.281 15.2077L22.3379 15.6429H22.7768H25.4286C26.4159 15.6429 27.2143 14.8444 27.2143 13.8571V12.5714C27.2143 10.877 25.8373 9.5 24.1429 9.5H21.5714C20.7266 9.5 19.9628 9.84156 19.4074 10.3922ZM16.6094 10.7857H16.4954L16.3927 10.8351C15.6173 11.2079 14.7628 11.4286 13.8571 11.4286C12.952 11.4286 12.1012 11.2081 11.3207 10.8347L11.2184 10.7857H11.1049H10.7714C7.93993 10.7857 5.64286 13.0828 5.64286 15.9143V17.0714C5.64286 18.4123 6.73055 19.5 8.07143 19.5H19.6429C20.9837 19.5 22.0714 18.4123 22.0714 17.0714V15.9143C22.0714 13.0828 19.7744 10.7857 16.9429 10.7857H16.6094ZM8.19533 11.1857L8.78251 10.8637L8.30693 10.3922C7.75146 9.84156 6.98772 9.5 6.14286 9.5H3.57143C1.87698 9.5 0.5 10.877 0.5 12.5714V13.8571C0.5 14.8444 1.29841 15.6429 2.28571 15.6429H4.93348H5.37142L5.42912 15.2087C5.66062 13.467 6.7111 11.9997 8.19533 11.1857ZM4.85714 9.21429C6.55159 9.21429 7.92857 7.8373 7.92857 6.14286C7.92857 4.44841 6.55159 3.07143 4.85714 3.07143C3.1627 3.07143 1.78571 4.44841 1.78571 6.14286C1.78571 7.8373 3.1627 9.21429 4.85714 9.21429ZM22.8571 9.21429C24.5516 9.21429 25.9286 7.8373 25.9286 6.14286C25.9286 4.44841 24.5516 3.07143 22.8571 3.07143C21.1627 3.07143 19.7857 4.44841 19.7857 6.14286C19.7857 7.8373 21.1627 9.21429 22.8571 9.21429ZM13.8571 10.5C16.6203 10.5 18.8571 8.2632 18.8571 5.5C18.8571 2.7368 16.6203 0.5 13.8571 0.5C11.0939 0.5 8.85714 2.7368 8.85714 5.5C8.85714 8.2632 11.0939 10.5 13.8571 10.5Z\" stroke=\"url(#paint0_linear_1_9)\" /><defs><linearGradient id=\"paint0_linear_1_9\" x1=\"6\" y1=\"0.999999\" x2=\"26.5\" y2=\"20\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#5566CA\" /><stop offset=\"1\" stop-color=\"#36CFC6\" /></linearGradient></defs></svg>",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "layout": {
+      "type": "string",
+      "default": "grid"
+    },
+    "hoverShow": {
+      "type": "boolean",
+      "default": true
+    },
+    "gridOptions": {
+      "type": "object",
+      "default": {
+        "displayColumn": 3,
+        "masonryEnabled": false,
+        "columnGap": 30
+      }
+    },
+    "carouselOptions": {
+      "type": "object",
+      "default": {
+        "pagination": {
+          "enabled": true,
+          "width": 10,
+          "height": 10,
+          "borderRadius": 10,
+          "activeWidth": 10,
+          "activeHeight": 10,
+          "activeBorder": {
+            "width": "",
+            "style": "",
+            "color": ""
+          },
+          "activeOffset": 0,
+          "gap": 4,
+          "activeBorderRadius": 10,
+          "activeColor": "#007cba",
+          "color": "#252525",
+          "activeColorHover": "#164861",
+          "colorHover": "#a5a5a5",
+          "activeBorderHover": "",
+          "align": "center",
+          "positionVertical": -20,
+          "left": "0px",
+          "right": "0px"
+        },
+        "navigation": {
+          "enabled": true,
+          "iconSize": 15,
+          "iconBoxWidth": 35,
+          "iconBoxHeight": 35,
+          "borderType": "none",
+          "borderWidth": 1,
+          "borderColor": "#000",
+          "borderColorHover": "",
+          "borderRadius": 50,
+          "backgroundColor": "#fff",
+          "color": "#007cba",
+          "backgroundColorHover": "#007cba",
+          "colorHover": "#fff",
+          "padding": {
+            "top": 5,
+            "right": 5,
+            "bottom": 5,
+            "left": 5
+          }
+        },
+        "sliderOptions": {
+          "loop": false,
+          "speed": 700,
+          "autoplay": {
+            "enabled": true,
+            "pauseOnMouseEnter": true,
+            "delay": 2500
+          },
+          "centeredSlides": false,
+          "slidesPerView": 3,
+          "spaceBetween": 30
+        }
+      }
+    }
+  },
+  "editorScript": [
+    "cozy-block--teams"
+  ],
+  "editorStyle": "cozy-block--teams--editor-style",
+  "style": [
+    "cozy-block--teams--style",
+    "cozy-swiper-bundle"
+  ],
+  "viewScript": [
+    "cozy-block-scripts",
+    "cozy-swiper-bundle"
+  ],
+  "render": "file:./render.php"
+}

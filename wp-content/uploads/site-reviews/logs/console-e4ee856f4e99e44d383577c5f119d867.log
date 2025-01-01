@@ -1,0 +1,26 @@
+[2024-11-23 02:47:26] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:112] cache::flushing [all]
+[2024-11-23 04:13:25] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-11-23 04:13:46] ERROR [Modules\Email:69] [wp_mail] Email was not sent: Could not instantiate mail function.
+[2024-11-23 04:17:17] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-11-23 04:17:40] ERROR [Modules\Email:69] [wp_mail] Email was not sent: Could not instantiate mail function.
+[2024-11-23 05:12:32] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:112] cache::flushing [all]
+[2024-11-23 07:10:27] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-11-23 07:10:51] ERROR [Modules\Email:69] [wp_mail] Email was not sent: Could not instantiate mail function.
+[2024-11-23 07:18:34] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-11-23 07:19:15] ERROR [Modules\Email:69] [wp_mail] Email was not sent: Could not instantiate mail function.
+[2024-11-30 02:27:49] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:112] cache::flushing [all]
+[2024-11-30 11:32:16] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-12-19 01:42:57] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:112] cache::flushing [all]
+[2024-12-20 10:21:12] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-12-20 10:34:10] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-12-20 13:16:10] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-12-20 14:12:50] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [156]
+[2024-12-23 08:18:51] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:112] cache::flushing [all]
+[2024-12-27 04:04:15] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:112] cache::flushing [all]
+[2024-12-30 02:16:01] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:112] cache::flushing [all]
+[2024-12-30 02:17:07] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:112] cache::flushing [all]
+[2024-12-30 02:21:09] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [105]
+[2024-12-30 02:21:55] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [105]
+[2024-12-30 06:36:53] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [105]
+[2024-12-30 06:55:13] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [105]
+[2024-12-30 07:03:27] DEBUG [C:\xampp\htdocs\ai_solution\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:114] cache::flushing [105]

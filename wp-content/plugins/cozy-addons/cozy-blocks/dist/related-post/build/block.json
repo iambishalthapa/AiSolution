@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/related-post",
+  "title": "Related Post (Premium)",
+  "description": "Uncover additional relevant content using our 'Related Post' block, offering curated suggestions tailored to your interests for an engaging exploration of aligned topics.",
+  "category": "cozy-block/post-magazine",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "gridOptions": {
+      "type": "object",
+      "default": {
+        "displayColumn": 3,
+        "columnGap": 30
+      }
+    }
+  },
+  "editorScript": [
+    "cozy-block--related-post"
+  ],
+  "editorStyle": "cozy-block--related-post--editor-style",
+  "viewScript": [
+    "cozy-block-scripts"
+  ],
+  "style": [
+    "cozy-block--related-post--style"
+  ],
+  "render": "file:./render.php"
+}

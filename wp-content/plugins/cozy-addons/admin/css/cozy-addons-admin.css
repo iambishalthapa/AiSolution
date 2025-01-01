@@ -1,0 +1,557 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.cozy-addons-dashboard {
+  margin: 0 15px;
+}
+.cozy-addons-dashboard .dashboard-holder {
+  padding: 0px;
+  background: #fff;
+  margin-top: 20px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 9%);
+  border: 1px solid #ddd;
+}
+.ca-dashboard-header h1 {
+  margin: 0 0 16px;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+.widgets-holder {
+  grid-template-columns: repeat(6, 1fr);
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-column-gap: 40px;
+  text-align: left;
+  width: 98.5%;
+}
+.widgets-holder li {
+  margin: 10px 0;
+}
+.widgets-holder li a:hover {
+  color: #f50548;
+}
+.widgets-holder .widget-box h4 {
+  color: #5e36ad;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 700;
+}
+.widgets-holder .widget-box {
+  margin-bottom: 0px;
+  padding: 15px 0 15px 20px;
+  text-align: left;
+  position: relative;
+}
+.widgets-holder .widget-box:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  background: #ddd;
+}
+.cozy-pro-widgets.grid-layout h4 {
+  color: #f50548;
+}
+h3.widget-box-header {
+  color: #343434;
+  padding-bottom: 7px;
+  display: inline-block;
+  padding-right: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+}
+
+h3.widget-box-header span {
+  color: #fff;
+  background: #5e36ad;
+  margin-left: 15px;
+  padding: 4px 10px 5px;
+  font-size: 13px;
+  border-radius: 20px;
+}
+.cozy-pro-widgets h3.widget-box-header span {
+  background: #f5054e;
+}
+.widgets-holder.other-features {
+  grid-template-columns: repeat(1, 1fr);
+}
+.widgets-holder.other-features li {
+  padding: 0 10px;
+}
+.widgets-holder.other-features li .submit {
+  margin-top: 0;
+}
+.widgets-holder.other-features li .submit input {
+  background-color: #5566ca;
+  transition: all ease-in-out 0.23s;
+}
+.widgets-holder.other-features li .submit input:hover {
+  background-color: #38dac7;
+  border-color: transparent;
+  transition: all ease-in-out 0.23s;
+}
+.widgets-holder li {
+  text-decoration: none;
+  font-weight: 600;
+  background: #fff;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+}
+a.unlock-pro {
+  background: #5e36ad;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all ease 0.23s;
+  margin-top: 50px;
+  font-size: 16px;
+}
+a.unlock-pro span.dashicons.dashicons-unlock {
+  display: none;
+}
+a.unlock-pro:hover span.dashicons.dashicons-unlock {
+  display: inline-block;
+}
+a.unlock-pro:hover span.dashicons.dashicons-lock {
+  display: none;
+}
+a.unlock-pro:hover {
+  background: #f5054e;
+}
+.ca-dashboard-header {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  background: #f9f9f9;
+}
+.ca-dashboard-header .header-left {
+  padding: 50px;
+  width: 50%;
+}
+
+.ca-dashboard-header .header-right img {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: -4px;
+}
+.ca-dashboard-header .header-right {
+  width: 50%;
+}
+.cozy-faq-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 30px 30px;
+  text-align: center;
+}
+.cozy-faq-section h3,
+.footer-buttons h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.faq-box h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer-buttons {
+  padding: 0 20px 40px;
+  text-align: center;
+}
+.buttons-group a {
+  text-decoration: none;
+  background: #5e36ad;
+  color: #fff;
+  margin: 15px 5px 0;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.buttons-group a.support-btn {
+  background: #f5054e;
+}
+.buttons-group a:hover,
+.buttons-group a.support-btn:hover {
+  background: #787878;
+}
+ul.plugins-list li {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+ul.plugins-list li span.info {
+  font-size: 14px;
+  font-weight: 200;
+  color: #959090;
+}
+ul.plugins-list li.active span.dashicons {
+  color: #35c733;
+}
+ul.plugins-list li span.plugin-status {
+  background: #f36c96;
+  display: inline-block;
+  padding: 1px 9px 2px;
+  font-size: 12px;
+  border-radius: 30px;
+  margin-left: 10px;
+  color: #fff;
+}
+ul.plugins-list li.active span.plugin-status {
+  background: #35c733;
+  color: #fff;
+}
+ul.plugins-list li span.plugin-status a {
+  color: #fff;
+  text-decoration: none;
+}
+h4.addons-info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: -2px;
+}
+.ca-dashboard-header .header-right img {
+  /* height: 594px;*/
+  width: 100%;
+  object-fit: cover;
+}
+.cozy-recommended-plugins h3 {
+  margin: 10px 0 10px;
+  display: inline-block;
+  width: 100%;
+}
+.cozy-addons-admin-notice {
+  display: flex;
+  padding: 0 20px 0 0;
+  margin-left: 0;
+  border-left-color: #0c50ff;
+  align-items: center;
+}
+.cozy-addons-admin-notice .notice-content {
+  padding: 20px;
+  width: 60%;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+}
+.cozy-addons-admin-notice .notice-content .notice-holder h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.cozy-addons-admin-notice .notice-holder h4 {
+  font-weight: 400;
+  color: #0c50ff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.cozy-addons-admin-notice .notice-holder p {
+  font-size: 16px;
+}
+.cozy-addons-admin-notice .notice-content h2 {
+  margin: 0 0 15px;
+  font-size: 18px;
+}
+.cozy-addons-icons {
+  background: rgba(84, 82, 235, 0.05);
+  align-items: baseline;
+  padding: 20px 10px;
+}
+.cozy-addons-icons img {
+  max-width: 24px;
+}
+.cozy-addons-admin-notice .notice-content h5 {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.cozy-addons-admin-notice .notice-content .cozy-btns {
+  text-decoration: none;
+  background: #0c50ff;
+  color: #fff;
+  transition: all ease 0.23s;
+  padding: 13px 18px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.cozy-addons-admin-notice .notice-content .cozy-btns.checkout-btn {
+  background-color: #f90;
+  margin-left: 16px;
+}
+.cozy-addons-admin-notice .notice-content .cozy-btns.dismiss-notice {
+  background: transparent;
+  color: #5566ca;
+}
+.cozy-addons-admin-notice .notice-content .cozy-btns.getting-started {
+  background: #0ad2b9;
+}
+.cozy-addons-admin-notice .notice-content .cozy-btns.getting-started:hover,
+.cozy-addons-admin-notice .notice-content .cozy-btns.btns-more:hover {
+  background: #232323;
+}
+.cozy-addons-admin-notice .notice-content .cozy-btns.dismiss-notice:hover {
+  color: #0ad2b9;
+}
+.cthf-buidler-dashboard select {
+  padding: 6px 15px;
+  margin: 8px 0 22px;
+}
+
+.cthf-buidler-dashboard .cthf-field-label,
+.cthf-buidler-dashboard .cthf-field {
+  width: 40%;
+  display: inline-block;
+}
+.cthf-buidler-dashboard .cthf-field-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.cthf-buidler-dashboard .cthf-field {
+  width: 60%;
+}
+.cthf-buidler-dashboard .ctfh-field-holder {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.cthf-buidler-dashboard {
+  padding: 20px 10px;
+}
+#ct_template_location_meta .postbox-header {
+  padding: 5px 10px;
+}
+
+#ct_template_location_meta.postbox {
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.045);
+  border-radius: 4px;
+}
+.wrap.ct-custom-scripts .submit {
+  margin-left: 14.7%;
+}
+.wrap.ct-custom-scripts .submit #submit {
+  padding: 6px 20px;
+}
+.ct_header_footer_buidler_notice {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+}
+.ct_header_footer_buidler_notice h2 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 500;
+}
+.ct_header_footer_buidler_notice .upsell-button {
+  padding: 20px 31px;
+  background: #5566ca;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all ease 0.23s;
+}
+.ct_header_footer_buidler_notice .upsell-button:hover {
+  background: #0ad2bb;
+}
+
+/* Cozy block toggle */
+.blocks-holder {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  text-align: left;
+  background-color: #fff;
+  padding: 30px;
+}
+.display-flex {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.cozy-display-flex {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.blocks-holder li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  border: 1px solid #dcdeeb;
+  border-radius: 4px;
+  padding: 0 20px;
+}
+.cozy-block-pro-label {
+  background-color: #fd1321;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+.cozy-pro-icon {
+  position: absolute;
+  right: -5px;
+  top: 0;
+}
+.cozy-block-toggle .switch {
+  position: relative;
+  display: inline-block;
+  width: 31px;
+  height: 16px;
+}
+
+.cozy-block-toggle .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.cozy-toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.cozy-toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 11px;
+  width: 11px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.cozy-block-toggle input:checked + .cozy-toggle-slider {
+  background-color: #5566ca;
+}
+.cozy-block-toggle input:checked + .cozy-toggle-slider:before {
+  background-color: #36cfc6;
+}
+
+.cozy-block-toggle input:focus + .cozy-toggle-slider {
+  box-shadow: 0 0 1px #5566ca;
+}
+.cozy-block-toggle input:checked + .cozy-toggle-slider.cozy-pro-block {
+  background-color: #fabbbf;
+}
+.cozy-block-toggle input:checked + .cozy-toggle-slider.cozy-pro-block:before {
+  background-color: #fd1321;
+}
+
+.cozy-block-toggle input:focus + .cozy-toggle-slider.cozy-pro-block {
+  box-shadow: 0 0 1px #fd1321;
+}
+
+.cozy-block-toggle input:checked + .cozy-toggle-slider:before {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.cozy-toggle-slider.round {
+  border-radius: 34px;
+}
+
+.cozy-toggle-slider.round:before {
+  border-radius: 50%;
+}
+
+.cozy-block-upsell-tooltip {
+  background-color: #fff;
+  padding: 17px 20px;
+  border-radius: 12px;
+  width: 205px;
+  display: none;
+  position: absolute;
+  z-index: 2;
+  bottom: 140%;
+  left: -194px;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.2);
+  color: #4c4d4f;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.cozy-block-upsell-tooltip:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 100%;
+  left: 200px;
+  border-top: 12px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: none;
+}
+.cozy-addons-admin-notice .pluign-screen {
+  width: 50%;
+  text-align: right;
+}
+.cozy-addons-admin-notice .pluign-screen img {
+  max-width: 100%;
+  display: inline;
+}
+
+.entry-content.wp-block-post-content a,
+.wp-block-comment-content a,
+p a {
+  text-decoration: underline;
+}
+
+/* Freemius Notice Styles */
+.fs-notice.fs-has-title {
+  margin-left: 0;
+  margin-bottom: 38px;
+}
+.fs-notice label.fs-plugin-title {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 3px 3px;
+  bottom: auto;
+  color: #fff;
+  cursor: auto;
+  font-size: 12px;
+  font-weight: 700;
+  left: 10px;
+  padding: 2px 10px;
+  position: absolute;
+  right: auto;
+  top: 100%;
+}

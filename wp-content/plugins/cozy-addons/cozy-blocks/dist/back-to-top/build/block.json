@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/back-to-top",
+  "title": "Back to Top",
+  "description": "Improve user experience with a convenient 'Back to Top' button, enabling effortless return to the page's top for smooth and easy navigation.",
+  "category": "cozy-block",
+  "icon": "<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"white\" x=\"0.5\" y=\"0.5\" width=\"24\" height=\"24\" rx=\"4.5\" stroke=\"#5566CA\"/><path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M7.5 12.2426L12.273 7.46967C12.5659 7.17678 13.0407 7.17678 13.3336 7.46967L18.1066 12.2426C18.3995 12.5355 18.3995 13.0104 18.1066 13.3033C17.8137 13.5962 17.3388 13.5962 17.0459 13.3033L13.5533 9.81066V20H12.0533V9.81066L8.56066 13.3033C8.26777 13.5962 7.79289 13.5962 7.5 13.3033C7.20711 13.0104 7.20711 12.5355 7.5 12.2426Z\" fill=\"#36CFC6\"/><path d=\"M7 5.75C7 5.33579 7.33579 5 7.75 5H18.25C18.6642 5 19 5.33579 19 5.75V5.75C19 6.16421 18.6642 6.5 18.25 6.5H7.75C7.33579 6.5 7 6.16421 7 5.75V5.75Z\" fill=\"#36CFC6\"/></svg>",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "position": {
+      "type": "object",
+      "default": {
+        "right": 25,
+        "bottom": 25
+      }
+    },
+    "styles": {
+      "type": "object",
+      "default": {
+        "boxWidth": 50,
+        "boxHeight": 50,
+        "borderRadius": 50,
+        "iconSize": 18,
+        "iconColor": "#fff",
+        "iconColorHover": "#fff",
+        "bgColor": "#5566CA",
+        "bgColorHover": "#5566CA"
+      }
+    }
+  },
+  "editorScript": [
+    "cozy-block--back-to-top"
+  ],
+  "editorStyle": "cozy-block--back-to-top--editor-style",
+  "viewScript": [
+    "cozy-block-scripts"
+  ],
+  "style": [
+    "cozy-block--back-to-top--style"
+  ],
+  "render": "file:./render.php"
+}

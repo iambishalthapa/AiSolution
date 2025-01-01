@@ -1,0 +1,196 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/container",
+  "title": "Cozy Container",
+  "description": "Infuse life into your content with our 'Cozy Container' block, offering animation and customization options for a vibrant and personalized user experience.",
+  "category": "cozy-block",
+  "example": {},
+  "icon": "<svg width=\"26\" height=\"18\" viewBox=\"0 0 26 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"white\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"17\" rx=\"2.5\" stroke=\"#5566CA\"/><path d=\"M13 5C10.7903 5 9 6.79032 9 9C9 11.2097 10.7903 13 13 13C15.2097 13 17 11.2097 17 9C17 6.79032 15.2097 5 13 5ZM15.3226 9.45161C15.3226 9.55806 15.2355 9.64516 15.129 9.64516H13.6452V11.129C13.6452 11.2355 13.5581 11.3226 13.4516 11.3226H12.5484C12.4419 11.3226 12.3548 11.2355 12.3548 11.129V9.64516H10.871C10.7645 9.64516 10.6774 9.55806 10.6774 9.45161V8.54839C10.6774 8.44194 10.7645 8.35484 10.871 8.35484H12.3548V6.87097C12.3548 6.76452 12.4419 6.67742 12.5484 6.67742H13.4516C13.5581 6.67742 13.6452 6.76452 13.6452 6.87097V8.35484H15.129C15.2355 8.35484 15.3226 8.44194 15.3226 8.54839V9.45161Z\" fill=\"#36CFC6\"/></svg>",
+  "supports": {
+    "html": false,
+    "background": {
+      "backgroundImage": true,
+      "backgroundSize": true,
+      "__experimentalDefaultControls": {
+        "backgroundImage": true
+      }
+    }
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaId": {
+      "type": "number",
+      "default": 0
+    },
+    "mediaUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imagePosition": {
+      "type": "string",
+      "default": "center"
+    },
+    "position": {
+      "type": "string",
+      "default": "inherit"
+    },
+    "fixedPlacement": {
+      "type": "string",
+      "default": "top"
+    },
+    "top": {
+      "type": "number",
+      "default": 0
+    },
+    "bottom": {
+      "type": "number",
+      "default": 0
+    },
+    "stickyStyles": {
+      "type": "object",
+      "default": {
+        "bgColor": ""
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    "zIndex": {
+      "type": "string",
+      "default": "0"
+    },
+    "border": {
+      "type": "object",
+      "default": {
+        "type": "none",
+        "color": "#fff",
+        "widthDimension": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      }
+    },
+    "borderHover": {
+      "type": "object",
+      "default": {
+        "type": "none",
+        "color": "",
+        "widthDimension": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      }
+    },
+    "borderRadius": {
+      "type": "object",
+      "default": {
+        "topL": 6,
+        "topR": 6,
+        "bottomL": 6,
+        "bottomR": 6
+      }
+    },
+    "borderRadiusHover": {
+      "type": "object",
+      "default": {
+        "topL": "",
+        "topR": "",
+        "bottomL": "",
+        "bottomR": ""
+      }
+    },
+    "boxShadow": {
+      "type": "object",
+      "default": {
+        "enabled": false,
+        "color": "#000",
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "position": ""
+      }
+    },
+    "boxShadowHover": {
+      "type": "object",
+      "default": {
+        "enabled": false,
+        "color": "#000",
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "position": ""
+      }
+    },
+    "backgroundColorHover": {
+      "type": "string",
+      "default": ""
+    },
+    "animation": {
+      "type": "object",
+      "default": {
+        "effect": "none",
+        "direction": "left",
+        "gap": "50",
+        "duration": "1",
+        "delay": "0.5"
+      }
+    },
+    "shapeDivider": {
+      "type": "object",
+      "default": {
+        "enabled": false,
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "height": 200,
+        "position": "bottom",
+        "flip": "right",
+        "svg": "<svg viewBox=\"0 0 519 134\" preserveAspectRatio=\"none\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 134H519V0L0 134Z\"/></svg>",
+        "color": "#fff"
+      }
+    }
+  },
+  "editorScript": [
+    "cozy-block--container"
+  ],
+  "editorStyle": "cozy-block--container--editor-style",
+  "style": [
+    "cozy-block--container--style"
+  ],
+  "viewScript": [
+    "cozy-block-scripts"
+  ],
+  "render": "file:./render.php"
+}

@@ -1,0 +1,183 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/social-share",
+  "title": "Social Shares",
+  "description": "Encourage seamless content sharing with our 'Social Shares' block, featuring eye-catching social media icons for enhanced engagement and wider reach.",
+  "category": "cozy-block",
+  "example": {},
+  "icon": "<svg width=\"26\" height=\"23\" viewBox=\"0 0 26 23\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"white\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"22\" rx=\"2.5\" stroke=\"#5566CA\" /><circle cx=\"8.5\" cy=\"11.5\" r=\"2.5\" fill=\"#36CFC6\" /><path d=\"M18.7679 16.1119C18.7679 17.4926 17.6486 18.6119 16.2679 18.6119C14.8872 18.6119 13.7679 17.4926 13.7679 16.1119C13.7679 14.7312 14.8872 13.6119 16.2679 13.6119C17.6486 13.6119 18.7679 14.7312 18.7679 16.1119Z\" fill=\"#36CFC6\" /><path d=\"M17.5 7.06301C17.5 8.16757 16.6046 9.06301 15.5 9.06301C14.3954 9.06301 13.5 8.16757 13.5 7.06301C13.5 5.95845 14.3954 5.06301 15.5 5.06301C16.6046 5.06301 17.5 5.95845 17.5 7.06301Z\" fill=\"#36CFC6\" /><path d=\"M14.9783 7L10 10.2826L10.5 11L15 8L14.9783 7Z\" fill=\"#36CFC6\" /><path d=\"M14.5 15L10.5 12L10 12.5L14 15.5L14.5 15Z\" fill=\"#36CFC6\" /></svg>",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "enableLabel": {
+      "type": "boolean",
+      "default": false
+    },
+    "iconDisplay": {
+      "type": "object",
+      "default": {
+        "orientation": "horizontal",
+        "alignment": "left",
+        "left": 10,
+        "right": -30
+      }
+    },
+    "selectedSocialList": {
+      "type": "array",
+      "default": [
+        {
+          "label": "Email",
+          "value": "email",
+          "shareUrl": "mailto:?subject=",
+          "enabled": false,
+          "iconColor": "#15a5ee",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        },
+        {
+          "label": "Facebook",
+          "value": "facebook",
+          "shareUrl": "https://www.facebook.com/sharer/sharer.php?u=",
+          "enabled": true,
+          "iconColor": "#1877f2",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        },
+        {
+          "label": "Linkedin",
+          "value": "linkedin",
+          "shareUrl": "https://www.linkedin.com/shareArticle?title=",
+          "enabled": true,
+          "iconColor": "#0a66c2",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        },
+        {
+          "label": "Pinterest",
+          "value": "pinterest",
+          "shareUrl": "https://www.pinterest.com/pin/create/button/?url=",
+          "enabled": false,
+          "iconColor": "#cc0000",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        },
+        {
+          "label": "Reddit",
+          "value": "reddit",
+          "shareUrl": "https://reddit.com/submit?title=",
+          "enabled": false,
+          "iconColor": "#ff5700",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        },
+        {
+          "label": "Telegram",
+          "value": "telegram",
+          "shareUrl": "https://t.me/share/url?text=",
+          "enabled": false,
+          "iconColor": "#0088cc",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        },
+        {
+          "label": "Tumblr",
+          "value": "tumblr",
+          "shareUrl": "https://www.tumblr.com/widgets/share/tool?canonicalUrl=",
+          "enabled": false,
+          "iconColor": "#35465d",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        },
+        {
+          "label": "Twitter",
+          "value": "twitter",
+          "shareUrl": "https://twitter.com/share?text=",
+          "enabled": true,
+          "iconColor": "#000",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        },
+        {
+          "label": "Whatsapp",
+          "value": "whatsapp",
+          "shareUrl": "https://api.whatsapp.com/send?text=",
+          "enabled": true,
+          "iconColor": "#25d366",
+          "iconColorHover": "",
+          "bgColor": "",
+          "bgColorHover": ""
+        }
+      ]
+    },
+    "iconSize": {
+      "type": "number",
+      "default": 20
+    },
+    "iconGap": {
+      "type": "number",
+      "default": 10
+    },
+    "iconColor": {
+      "type": "string",
+      "default": ""
+    },
+    "iconColorHover": {
+      "type": "string",
+      "default": ""
+    },
+    "boxStyles": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "left": 5
+        },
+        "borderType": "none",
+        "borderWidth": 1,
+        "borderColor": "#000",
+        "borderColorHover": "",
+        "borderRadius": 50,
+        "bgColor": "",
+        "bgColorHover": ""
+      }
+    },
+    "typography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Inter",
+        "fontSize": 14,
+        "color": "#fff",
+        "colorHover": "",
+        "fontWeight": 400
+      }
+    }
+  },
+  "editorScript": [
+    "cozy-block--social-share"
+  ],
+  "editorStyle": "cozy-block--social-share--editor-style",
+  "style": [
+    "cozy-block--social-share--style"
+  ],
+  "render": "file:./render.php"
+}

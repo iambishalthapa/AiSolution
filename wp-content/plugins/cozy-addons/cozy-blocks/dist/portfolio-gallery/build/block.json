@@ -1,0 +1,570 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/portfolio-gallery",
+  "title": "Portfolio Gallery",
+  "description": "Showcase your work with finesse using the 'Portfolio Gallery' block, designed for creating advanced and visually stunning layouts to present your portfolio in a captivating manner.",
+  "category": "cozy-block",
+  "keywords": [
+    "gallery",
+    "image",
+    "img",
+    "portfolio"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": {
+      "background": true,
+      "gradients": true,
+      "link": true,
+      "text": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalTextTransform": true,
+      "__experimentalFontFamily": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalSkipSerialization": [
+        "textDecoration"
+      ],
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    }
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "namespace": {
+      "type": "string",
+      "default": "cozy-block/portfolio-gallery"
+    },
+    "source": {
+      "type": "string",
+      "default": "default"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "dateDESC"
+    },
+    "layout": {
+      "type": "string",
+      "default": "grid"
+    },
+    "perPage": {
+      "type": "number",
+      "default": -1
+    },
+    "textAlign": {
+      "type": "string",
+      "default": "center"
+    },
+    "portfolioTemplates": {
+      "type": "array",
+      "default": []
+    },
+    "portfolioTax": {
+      "type": "array",
+      "default": []
+    },
+    "portfolioCat": {
+      "type": "array",
+      "default": []
+    },
+    "catInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "imageHoverEffect": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableOptions": {
+      "type": "object",
+      "default": {
+        "title": true,
+        "content": true,
+        "excerpt": 20,
+        "icon": true,
+        "button": true
+      }
+    },
+    "featuredImage": {
+      "type": "object",
+      "default": {
+        "width": "",
+        "height": "",
+        "marginTop": 10,
+        "marginBottom": 10,
+        "borderRadius": 0,
+        "overlayColor": "#323131",
+        "opacity": 0.5,
+        "position": "before"
+      }
+    },
+    "layoutType": {
+      "type": "string",
+      "default": "gallery"
+    },
+    "galleryOptions": {
+      "type": "object",
+      "default": {
+        "textAlign": "left",
+        "iconSize": "30px",
+        "iconViewBox": {
+          "vx": 0,
+          "vy": 0,
+          "vw": 24,
+          "vh": 24
+        },
+        "iconPath": "M17.3051 12.1C17.3051 12.6 16.9051 13 16.4051 13H12.8051V16.4C12.8051 16.9 12.4051 17.3 11.9051 17.3C11.4051 17.3 11.0051 16.9 11.0051 16.4V13H7.60511C7.10511 13 6.70511 12.6 6.70511 12.1C6.70511 11.6 7.10511 11.2 7.60511 11.2H11.0051V7.6C11.0051 7.1 11.4051 6.7 11.9051 6.7C12.4051 6.7 12.8051 7.1 12.8051 7.6V11.2H16.4051C16.9051 11.2 17.3051 11.6 17.3051 12.1Z",
+        "marginBottom": "10px",
+        "iconBoxSize": "16px",
+        "iconBoxBorderRadius": "50px",
+        "buttonRadius": "100px",
+        "iconBorder": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "iconBorderColorHover": "",
+        "iconBoxBgColor": "#fff",
+        "iconBoxBgColorHover": "#36cfc6",
+        "iconColor": "#090b10",
+        "iconColorHover": "#fff",
+        "buttonPadding": {
+          "top": "8px",
+          "right": "20px",
+          "bottom": "8px",
+          "left": "20px"
+        },
+        "buttonBorder": {
+          "width": "1px",
+          "style": "solid",
+          "color": "#fff"
+        },
+        "buttonBorderColorHover": "",
+        "buttonColor": "#fff",
+        "buttonColorHover": "",
+        "buttonBgColor": "",
+        "buttonBgColorHover": "",
+        "color": "",
+        "titleColor": "#fff"
+      }
+    },
+    "titlePosition": {
+      "type": "string",
+      "default": "bottom left"
+    },
+    "titlePadding": {
+      "type": "object",
+      "default": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
+    },
+    "gridOptions": {
+      "type": "object",
+      "default": {
+        "displayColumn": 3,
+        "columnGap": 30,
+        "isotopeFilter": false,
+        "masonryEnabled": false
+      }
+    },
+    "hoverShow": {
+      "type": "boolean",
+      "default": true
+    },
+    "sliderOptions": {
+      "type": "object",
+      "default": {
+        "direction": "horizontal",
+        "height": "430px",
+        "loop": false,
+        "autoplay": {
+          "status": true,
+          "pauseOnMouseEnter": true,
+          "delay": 2500
+        },
+        "centeredSlides": false,
+        "slidesPerView": 3,
+        "spaceBetween": 26,
+        "speed": 1500
+      }
+    },
+    "pagination": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "default": {
+          "width": "10px",
+          "height": "10px",
+          "radius": "10px",
+          "color": "#6a6a6a",
+          "colorHover": ""
+        },
+        "active": {
+          "width": "10px",
+          "height": "10px",
+          "radius": "10px",
+          "border": {
+            "width": "",
+            "style": "",
+            "color": ""
+          },
+          "offset": "1px",
+          "color": "#f90",
+          "colorHover": ""
+        },
+        "align": "center",
+        "verticalPosition": 0,
+        "left": "0px",
+        "right": "0px",
+        "gap": "4px"
+      }
+    },
+    "navigation": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "hoverShow": true,
+        "size": "15px",
+        "boxWidth": "35px",
+        "boxHeight": "35px",
+        "border": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "radius": "100px",
+        "borderColorHover": "",
+        "bgColor": "#007cba",
+        "bgColorHover": "#f90",
+        "color": "#fff",
+        "colorHover": ""
+      }
+    },
+    "searchBar": {
+      "type": "object",
+      "default": {
+        "enabled": false,
+        "position": "after",
+        "padding": {
+          "top": "5px",
+          "right": "5px",
+          "bottom": "5px",
+          "left": "5px"
+        },
+        "border": {
+          "width": "1px",
+          "style": "solid",
+          "color": "#e2e2e2"
+        },
+        "radius": "10px",
+        "color": "#000",
+        "bgColor": "#fff",
+        "bgColorFocus": "",
+        "borderColorFocus": ""
+      }
+    },
+    "searchIcon": {
+      "type": "object",
+      "default": {
+        "top": 14,
+        "right": 5
+      }
+    },
+    "ajaxButton": {
+      "type": "object",
+      "default": {
+        "enabled": false,
+        "label": "Load More",
+        "contentLoad": 10,
+        "marginTop": 10,
+        "padding": {
+          "top": "10px",
+          "right": "10px",
+          "bottom": "10px",
+          "left": "10px"
+        },
+        "border": {
+          "width": "",
+          "type": "",
+          "color": ""
+        },
+        "radius": "10px",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "",
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": "",
+        "borderColorHover": "",
+        "bgColor": "#5566ca",
+        "bgColorHover": "",
+        "color": "#fff",
+        "colorHover": ""
+      }
+    },
+    "popup": {
+      "type": "object",
+      "default": {
+        "enabled": true,
+        "dimension": "default",
+        "width": "600px",
+        "height": "",
+        "responsiveWidth": 768,
+        "padding": {
+          "top": "40px",
+          "right": "40px",
+          "bottom": "40px",
+          "left": "40px"
+        },
+        "bgColor": "#fff",
+        "overlayWrapper": "#363636",
+        "top": 0,
+        "left": 100
+      }
+    },
+    "catStyles": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": "2px",
+          "right": "6px",
+          "bottom": "2px",
+          "left": "6px"
+        },
+        "border": {
+          "width": "",
+          "type": "",
+          "color": ""
+        },
+        "gap": "6px",
+        "marginTop": "10px",
+        "marginBottom": "10px",
+        "radius": "10px",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "",
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": "",
+        "bgColor": "#5566ca",
+        "color": "#fff"
+      }
+    },
+    "portfolioCPT": {
+      "type": "object",
+      "default": {
+        "margin": {
+          "top": "10px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "padding": {
+          "top": "10px",
+          "right": "10px",
+          "bottom": "10px",
+          "left": "10px"
+        },
+        "radius": {
+          "top": "4px",
+          "right": "4px",
+          "bottom": "4px",
+          "left": "4px"
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "shadow": {
+          "enabled": false,
+          "color": "#000",
+          "horizontal": 0,
+          "vertical": 0,
+          "blur": 10,
+          "spread": 0,
+          "position": ""
+        },
+        "bgColor": "#5566ca",
+        "subtitleColor": "#fff",
+        "linkColor": "#fff",
+        "linkColorHover": "#38dac7",
+        "color": "#fff"
+      }
+    },
+    "portfolioIcon": {
+      "type": "object",
+      "default": {
+        "view": "default",
+        "layout": "fill",
+        "size": 10,
+        "color": "#5566ca"
+      }
+    },
+    "iconBoxStyles": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": "5px",
+          "right": "5px",
+          "bottom": "5px",
+          "left": "5px"
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "radius": "50px",
+        "bgColor": "#b2bcf9"
+      }
+    },
+    "isotopeStyles": {
+      "type": "object",
+      "default": {
+        "gap": "10px",
+        "marginTop": 0,
+        "marginRight": "0px",
+        "marginBottom": "10px",
+        "marginLeft": "0px",
+        "padding": {
+          "top": "5px",
+          "right": "5px",
+          "bottom": "5px",
+          "left": "5px"
+        },
+        "tabAlign": "center",
+        "radius": "10px",
+        "default": {
+          "border": {
+            "width": "",
+            "style": "",
+            "color": ""
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "#000",
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 10,
+            "spread": 0,
+            "position": ""
+          },
+          "bgColor": "",
+          "color": "#000"
+        },
+        "active": {
+          "border": {
+            "width": "",
+            "style": "",
+            "color": ""
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "#000",
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 10,
+            "spread": 0,
+            "position": ""
+          },
+          "bgColor": "#5566ca",
+          "color": "#fff"
+        },
+        "fontFamily": "",
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": ""
+      }
+    },
+    "titleTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": "22px",
+        "color": "#000",
+        "colorHover": "#5566ca",
+        "fontWeight": "600",
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": ""
+      }
+    },
+    "subtitleTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": "16px",
+        "color": "#000",
+        "fontWeight": "500",
+        "letterCase": "none",
+        "decoration": "none",
+        "lineHeight": "",
+        "letterSpacing": ""
+      }
+    }
+  },
+  "editorScript": [
+    "cozy-block--portfolio-gallery"
+  ],
+  "editorStyle": [
+    "cozy-block--portfolio-gallery--editor-style"
+  ],
+  "viewScript": [
+    "cozy-block-scripts"
+  ],
+  "script": [
+    "cozy-swiper-bundle"
+  ],
+  "style": [
+    "cozy-block--portfolio-gallery--style",
+    "cozy-swiper-bundle"
+  ],
+  "render": "file:./render.php"
+}
